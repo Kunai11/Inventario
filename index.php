@@ -7,7 +7,7 @@
 	<body>
 		<table position="center" border="1">
 			<tr>
-				<td colspan="3"><h1>Inicio</h1></td>
+				<td colspan="3" align="center"><h1>Inicio</h1></td>
 			</tr>
 			<tr>
 				<td>1</td>
