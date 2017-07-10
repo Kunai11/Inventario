@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 10-07-2017 a las 19:24:50
+-- Tiempo de generación: 10-07-2017 a las 01:34:53
 -- Versión del servidor: 5.6.17
 -- Versión de PHP: 5.5.12
 
@@ -28,11 +28,10 @@ SET time_zone = "+00:00";
 
 CREATE TABLE IF NOT EXISTS `catalogo` (
   `Codigo` varchar(5) COLLATE utf8_spanish_ci NOT NULL,
-  `Descripcion` varchar(200) COLLATE utf8_spanish_ci NOT NULL,
+  `Descripcion` text COLLATE utf8_spanish_ci NOT NULL,
   `Costo` float NOT NULL,
   `Precio` float NOT NULL,
-  `Categoria` varchar(10) COLLATE utf8_spanish_ci NOT NULL,
-  PRIMARY KEY (`Codigo`)
+  `Categoria` varchar(20) COLLATE utf8_spanish_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
 
 -- --------------------------------------------------------
@@ -43,10 +42,9 @@ CREATE TABLE IF NOT EXISTS `catalogo` (
 
 CREATE TABLE IF NOT EXISTS `egresos` (
   `Codigo` int(11) NOT NULL AUTO_INCREMENT,
-  `Codigo_Art` varchar(5) COLLATE utf8_spanish_ci NOT NULL,
+  `Cod_Articulo` varchar(5) COLLATE utf8_spanish_ci NOT NULL,
   `Fecha_sal` date NOT NULL,
-  PRIMARY KEY (`Codigo`),
-  KEY `Codigo_Art` (`Codigo_Art`)
+  PRIMARY KEY (`Codigo`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci AUTO_INCREMENT=1 ;
 
 -- --------------------------------------------------------
@@ -57,10 +55,9 @@ CREATE TABLE IF NOT EXISTS `egresos` (
 
 CREATE TABLE IF NOT EXISTS `existencias` (
   `Codigo_Ex` int(11) NOT NULL AUTO_INCREMENT,
-  `Codigo_Art` varchar(5) COLLATE utf8_spanish_ci NOT NULL,
-  `Existecias` int(11) NOT NULL,
-  PRIMARY KEY (`Codigo_Ex`),
-  KEY `Codigo_Art` (`Codigo_Art`)
+  `Cod_Articulo` varchar(5) COLLATE utf8_spanish_ci NOT NULL,
+  `Existencias` int(11) NOT NULL,
+  PRIMARY KEY (`Codigo_Ex`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci AUTO_INCREMENT=1 ;
 
 -- --------------------------------------------------------
@@ -73,31 +70,8 @@ CREATE TABLE IF NOT EXISTS `ingresos` (
   `Codigo` int(11) NOT NULL AUTO_INCREMENT,
   `Cod_Articulo` varchar(5) COLLATE utf8_spanish_ci NOT NULL,
   `Fecha_en` date NOT NULL,
-  PRIMARY KEY (`Codigo`),
-  KEY `Cod_Articulo` (`Cod_Articulo`)
+  PRIMARY KEY (`Codigo`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci AUTO_INCREMENT=1 ;
-
---
--- Restricciones para tablas volcadas
---
-
---
--- Filtros para la tabla `egresos`
---
-ALTER TABLE `egresos`
-  ADD CONSTRAINT `egresos_ibfk_1` FOREIGN KEY (`Codigo_Art`) REFERENCES `catalogo` (`Codigo`) ON DELETE CASCADE ON UPDATE CASCADE;
-
---
--- Filtros para la tabla `existencias`
---
-ALTER TABLE `existencias`
-  ADD CONSTRAINT `existencias_ibfk_1` FOREIGN KEY (`Codigo_Art`) REFERENCES `catalogo` (`Codigo`) ON DELETE CASCADE ON UPDATE CASCADE;
-
---
--- Filtros para la tabla `ingresos`
---
-ALTER TABLE `ingresos`
-  ADD CONSTRAINT `ingresos_ibfk_1` FOREIGN KEY (`Cod_Articulo`) REFERENCES `catalogo` (`Codigo`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
