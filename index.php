@@ -5,7 +5,7 @@
 	</head>
 
 	<body>
-		<div id="principal" margin="0 auto;">
+		<div id="principal" margin="0 auto">
 			<table position="center" border="1">
 				<tr>
 					<td>1</td>
