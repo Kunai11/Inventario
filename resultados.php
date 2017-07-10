@@ -20,7 +20,7 @@
                     <th>Modificar</th>
                 </tr>
                 <?php
-                include("cn/bdconexion.php");
+                    include("cn/bdconexion.php");
                     $sql=mysqli_query($db,"SELECT * FROM catalogo WHERE Codigo LIKE '%$palabra%'") or die(mysqli_error());
                     while($row=mysqli_fetch_array($sql)) {
                         echo '
@@ -33,7 +33,7 @@
                             </td>
                             <td>
                             <form method="GET" action="cambiar_campos_articulos.php">
-                                <input type="hidden" name="Id" Id="Id" value="'.$row['Codigo'].'">
+                                <input type="hidden" name="Codigo" Id="Codigo" value="'.$row['Codigo'].'">
                                 <input type="hidden" name="palabra" Id="palabra" value="'.$palabra.'">
                                 <input type="submit" name="modificar" id="modificar" value="Modificar"></td>
                             </form>

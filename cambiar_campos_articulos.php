@@ -8,9 +8,9 @@
         <?php
             include("cn/bdconexion.php");
             $palabra=$_GET['palabra'];
-            $Codigo=$_GET['Id'];
-                $sql=mysqli_query($db,"SELECT * FROM catalogo WHERE Codigo='$Codigo'") or die(mysqli_error());
-                $row=mysqli_fetch_array($sql);
+            $Codigo=$_GET['Codigo'];
+            $sql=mysqli_query($db,"SELECT * FROM catalogo WHERE Codigo='$Codigo'") or die(mysqli_error());
+            $row=mysqli_fetch_array($sql);
         ?>
         <a href="resultados.php?palabra=<?php echo $palabra; ?>">Regresar</a>
         <form method="GET" action="guardar_cambios_articulos.php">
@@ -21,7 +21,7 @@
             <tr>
                 <td>Codigo:</td>
                 <td>
-                    <input type="hidden" name="id" id="id" value="<?php echo $row['Codigo'];?>">
+                    <input type="hidden" name="codigo" id="codigo" value="<?php echo $row['Codigo'];?>">
                     <input type="hidden" name="palabra" id="palabra" value="<?php echo $palabra;?>">
                     <input type="text" name="codigo" id="codigo" required autofocus tabindex="1" value="<?php echo $row['Codigo'];?>">
                 </td>
@@ -35,7 +35,7 @@
             <tr>
                 <td>Costo:</td>
                 <td>
-                    <textarea type="number" name="costo" id="costo" required tabindex="3"><?php echo $row['Costo'];?></textarea>
+                    <input type="number" name="costo" id="costo" required tabindex="3"><?php echo $row['Costo'];?></input>
                 </td>
             </tr>
             <tr>

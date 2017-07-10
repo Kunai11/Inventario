@@ -13,8 +13,10 @@
                 <form method="GET" action="resultados.php">
                 <tr>
                     <td>Buscar</td>
-                    <td><input type="text" title="Parametros para la busqueda" name="palabra" id="palabra" required autofocus>
-                    <input type="submit" name="buscar" id="buscar" value="Buscar"></td>
+                    <td>
+                        <input type="text" title="Parametros para la busqueda" name="palabra" id="palabra" required autofocus>
+                        <input type="submit" name="buscar" id="buscar" value="Buscar">
+                    </td>
                 </tr>
                 </form>
             </table>
