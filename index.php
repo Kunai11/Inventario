@@ -49,7 +49,7 @@
 			<tr>
 				<td></td>
 				<td>--</td>
-				<td><a href="consultar articulo.php">Catalogo de productos</a></td>
+				<td><a href="catalogo_articulos.php">Catalogo de productos</a></td>
 			</tr>
 			<tr>
 				<td></td>
