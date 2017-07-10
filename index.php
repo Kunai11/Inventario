@@ -54,7 +54,7 @@
 			<tr>
 				<td></td>
 				<td>--</td>
-				<td><a href="">Buscar un producto</a></td>
+				<td><a href="buscar_articulo.php">Buscar un producto</a></td>
 			</tr>
 			<tr>
 				<td>4</td>

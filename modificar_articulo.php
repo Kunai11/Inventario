@@ -2,14 +2,14 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Modificar</title>
+        <title>Modificar producto existente</title>
     </head>
 
     <body>
         <div id="principal">
             <a href="index.php">Regresar</a>
             <table border="1">
-                <th colspan="2" align="center"><h1>Modificar</h1></th>
+                <th colspan="2" align="center"><h1>Modificar producto existente</h1></th>
                 <form method="GET" action="resultados.php">
                 <tr>
                     <td>Buscar</td>
