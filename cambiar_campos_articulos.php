@@ -6,7 +6,7 @@
     </head>
     <body>
         <?php
-            include("cn/conexion.php");
+            include("cn/bdconexion.php");
             $palabra=$_GET['palabra'];
             $Codigo=$_GET['Id'];
                 $sql=mysqli_query($db,"SELECT * FROM catalogo WHERE Codigo='$Codigo'") or die(mysqli_error());
