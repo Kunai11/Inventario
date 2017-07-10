@@ -32,7 +32,7 @@
                             <td>'.$row['Categoria'].'</td>
                             </td>
                             <td>
-                            <form method="GET" action="mod.php">
+                            <form method="GET" action="cambiar_campos_articulos.php">
                                 <input type="hidden" name="Id" Id="Id" value="'.$row['Codigo'].'">
                                 <input type="hidden" name="palabra" Id="palabra" value="'.$palabra.'">
                                 <input type="submit" name="modificar" id="modificar" value="Modificar"></td>
