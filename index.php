@@ -68,7 +68,7 @@
 			<tr>
 				<td></td>
 				<td>--</td>
-				<td><a href="">Historial de ventas</a></td>
+				<td><a href="historial_egresos.php">Historial de Egresos</a></td>
 			</tr>
 		</table>
 	</body>
