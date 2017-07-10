@@ -16,7 +16,7 @@
         <form method="GET" action="guardar_cambios_articulos.php">
             <table border="1">
             <tr>
-                <td colspan="2" align="center">Modificar datos del articulo</td>
+                <td colspan="2" align="center"><h1>Modificar datos del articulo</h1></td>
             </tr>
             <tr>
                 <td>Codigo:</td>
