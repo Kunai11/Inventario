@@ -1,5 +1,5 @@
 <?php
-    include("cn/conexion.php");
+    include("cn/bdconexion.php");
     $palabra=$_GET['palabra'];
     $codigo=$_GET['codigo'];
     $descripcion=$_GET['descripcion'];
