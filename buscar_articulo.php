@@ -10,7 +10,7 @@
             <a href="index.php">Regresar</a>
             <table border="1">
                 <th colspan="2" align="center"><h1>Buscar producto</h1></th>
-                <form method="GET" action="resultados.php">
+                <form method="GET" action="resultados_buscar.php">
                 <tr>
                     <td>Buscar</td>
                     <td>
