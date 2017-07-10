@@ -14,6 +14,7 @@
                 <tr>
                     <td>Buscar</td>
                     <td>
+                        <input type="hidden" name="paginaAnterior" Id="paginaAnterior" value="buscar_producto">
                         <input type="text" title="Parametros para la busqueda" name="palabra" id="palabra" required autofocus>
                         <input type="submit" name="buscar" id="buscar" value="Buscar">
                     </td>
