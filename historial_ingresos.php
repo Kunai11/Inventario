@@ -9,7 +9,7 @@
         <a href="index.php">Regresar</a>
         <table border="1">
             <tr>
-                <td colspan="5" align="center"><h1>Historial de Ingresos</h1></td>
+                <td colspan="3" align="center"><h1>Historial de Ingresos</h1></td>
             </tr>
             <tr>
                 <th>Codigo</th>
