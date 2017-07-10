@@ -11,22 +11,22 @@
 			</tr>
 			<tr>
 				<td>1</td>
-				<td colspan="2"><strong>Detalles del producto</strong></td>
+				<td colspan="2"><strong>Detalles del articulo</strong></td>
 			</tr>
 			<tr>
 				<td></td>
 				<td>--</td>
-				<td><a href="agregar_articulo.php">Agregar nuevo producto</a></td>
+				<td><a href="agregar_articulo.php">Agregar nuevo articulo</a></td>
 			</tr>
 			<tr>
 				<td></td>
 				<td>--</td>
-				<td><a href="modificar_articulo.php">Modificar producto existente</a></td>
+				<td><a href="modificar_articulo.php">Modificar articulo existente</a></td>
 			</tr>
 			<tr>
 				<td></td>
 				<td>--</td>
-				<td><a href="eliminar articulo.php">Eliminar producto</a></td>
+				<td><a href="eliminar articulo.php">Eliminar articulo</a></td>
 			</tr>
 			<tr>
 				<td>2</td>
@@ -35,12 +35,12 @@
 			<tr>
 				<td></td>
 				<td>--</td>
-				<td><a href="">Comprar productos</a></td>
+				<td><a href="">Comprar articulos</a></td>
 			</tr>
 			<tr>
 				<td></td>
 				<td>--</td>
-				<td><a href="">Vender productos</a></td>
+				<td><a href="">Vender articulos</a></td>
 			</tr>
 			<tr>
 				<td>3</td>
@@ -49,12 +49,12 @@
 			<tr>
 				<td></td>
 				<td>--</td>
-				<td><a href="catalogo_articulos.php">Catalogo de productos</a></td>
+				<td><a href="catalogo_articulos.php">Catalogo de articulos</a></td>
 			</tr>
 			<tr>
 				<td></td>
 				<td>--</td>
-				<td><a href="buscar_articulo.php">Buscar un producto</a></td>
+				<td><a href="buscar_articulo.php">Buscar un articulo</a></td>
 			</tr>
 			<tr>
 				<td>4</td>
