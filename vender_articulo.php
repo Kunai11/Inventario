@@ -21,9 +21,10 @@
                 <tr>
                     <th>Codigo</th>
                     <th>Descripcion</th>
-                  
                     <th>Precio</th>
                     <th>Categoria</th>
+                    <th>Ingresar cantidad de unidades</th>
+
                 </tr>
                 <?php
                     include("cn/bdconexion.php");
@@ -33,11 +34,11 @@
                             <tr>
                                 <td>'.$row['Codigo'].'</td>
                                 <td>'.$row['Descripcion'].'</td>
-                                
                                 <td>'.$row['Precio'].'</td>
                                 <td>'.$row['Categoria'].'</td>
                                 <td><input type="number" name="cantidad" id="cantidad"></td>
                             </tr>
+                            <td colspan="5" align="center"><input type="submit" name="facturar" id="facturar"  value="Facturar"></td>
                         ';
                     }
                 ?>

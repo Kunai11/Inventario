@@ -11,7 +11,13 @@
                 <tr>
                     <td colspan="6" align="center"><h1>Resultados para: <?php echo $palabra=$_GET['palabra']; ?></h1></td>
                 </tr>
-               
+                <tr>
+                    <th>Codigo</th>
+                    <th>Descripcion</th>
+                    <th>Precio</th>
+                    <th>Categoria</th>
+                    <th>Vender</th>
+                </tr>
                 <?php
                     include("cn/bdconexion.php");
                     $sql=mysqli_query($db,"SELECT * FROM catalogo WHERE Codigo LIKE '%$palabra%'") or die(mysqli_error());
@@ -20,7 +26,6 @@
                             <tr>
                                 <td>'.$row['Codigo'].'</td>
                                 <td>'.$row['Descripcion'].'</td>
-                                <td>'.$row['Costo'].'</td>
                                 <td>'.$row['Precio'].'</td>
                                 <td>'.$row['Categoria'].'</td>
                                 <td>
