@@ -9,7 +9,7 @@
         <a href="modificar_articulo.php">Regresar</a>
             <table border="1">
                 <tr>
-                    <td colspan="6" align="center"><h1>Resultados para: <?php echo $palabra=$_GET['palabra']; ?></h1></td>
+                    <td colspan="5" align="center"><h1>Resultados para: <?php echo $palabra=$_GET['palabra']; ?></h1></td>
                 </tr>
                 <tr>
                     <th>Codigo</th>
