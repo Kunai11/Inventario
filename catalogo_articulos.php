@@ -2,7 +2,7 @@
 <html>
     <head>
     	<meta charset="utf-8">
-    	<title>Consultar</title>
+    	<title>Catalogo</title>
     </head>
     <body>
         <div id="principal">
