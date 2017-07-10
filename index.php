@@ -17,7 +17,7 @@
 
 <tr>
 		<td>3</td>
-		<td><a href="agregar existencias.php">Agregar Existencias de Articulo</a></td>
+		<td><a href="existencias.php">Agregar Existencias de Articulo</a></td>
 	</tr>
 
 	<tr>
