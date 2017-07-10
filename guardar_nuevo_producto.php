@@ -9,6 +9,9 @@
     //echo $identidad.'-'.$nombre.'-'.$direccion.'-'.$telefono;
     $sql=mysqli_query($db,"INSERT INTO catalogo(Codigo,Descripcion,Costo,Precio,Categoria) values ('$codigo','$descripcion','$costo','$precio','$categoria')")or die(mysqli_error());
 
+      $sql=mysqli_query($db,"INSERT INTO existencias(Codigo_Art) values ('$codigo')")or die(mysqli_error());
+
+
     echo '
         <p>Art&iacute;culo agregado exitosamente.</p>
         <p><a href="index.php">Regresar</a></p>

@@ -35,12 +35,12 @@
 			<tr>
 				<td></td>
 				<td>--</td>
-				<td><a href="">Comprar articulos</a></td>
+				<td><a href="comprar_articulo.php">Comprar articulos</a></td>
 			</tr>
 			<tr>
 				<td></td>
 				<td>--</td>
-				<td><a href="">Vender articulos</a></td>
+				<td><a href="venta_articulo.php">Vender articulos</a></td>
 			</tr>
 			<tr>
 				<td>3</td>
