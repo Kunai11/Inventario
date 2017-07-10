@@ -13,7 +13,7 @@
                 $row=mysqli_fetch_array($sql);
         ?>
         <a href="resultados.php?palabra=<?php echo $palabra; ?>">Regresar</a>
-        <form method="GET" action="editar.php">
+        <form method="GET" action="guardar_cambios_articulos.php">
             <table border="1">
             <tr>
                 <td colspan="2" align="center">Modificar datos del articulo</td>
@@ -23,25 +23,31 @@
                 <td>
                     <input type="hidden" name="id" id="id" value="<?php echo $row['Codigo'];?>">
                     <input type="hidden" name="palabra" id="palabra" value="<?php echo $palabra;?>">
-                    <input type="text" name="identidad" id="identidad" required autofocus tabindex="1" value="<?php echo $row['Codigo'];?>">
+                    <input type="text" name="codigo" id="codigo" required autofocus tabindex="1" value="<?php echo $row['Codigo'];?>">
                 </td>
             </tr>
             <tr>
                 <td>Descripcion:</td>
                 <td>
-                    <input type="text" name="nombre" id="nombre" required tabindex="2" value="<?php echo $row['Descripcion'];?>">
+                    <input type="text" name="descripcion" id="descripcion" required tabindex="2" value="<?php echo $row['Descripcion'];?>">
                 </td>
             </tr>
             <tr>
                 <td>Costo:</td>
                 <td>
-                    <textarea name="direccion" id="direccion" required tabindex="3"><?php echo $row['Costo'];?></textarea>
+                    <textarea type="number" name="costo" id="costo" required tabindex="3"><?php echo $row['Costo'];?></textarea>
                 </td>
             </tr>
             <tr>
                 <td>Precio:</td>
                 <td>
-                    <input type="text" name="telefono" id="telefono" required tabindex="4" value="<?php echo $row['Precio'];?>">
+                    <input type="number" name="precio" id="precio" required tabindex="4" value="<?php echo $row['Precio'];?>">
+                </td>
+            </tr>
+            <tr>
+                <td>Categoria:</td>
+                <td>
+                    <input type="text" name="categoria" id="categoria" required tabindex="4" value="<?php echo $row['Categoria'];?>">
                 </td>
             </tr>
             <tr>
