@@ -16,7 +16,7 @@
 			<tr>
 				<td></td>
 				<td>--</td>
-				<td><a href="agregar articulo.php">Agregar nuevo producto</a></td>
+				<td><a href="agregar_articulo.php">Agregar nuevo producto</a></td>
 			</tr>
 			<tr>
 				<td></td>
