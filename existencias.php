@@ -12,6 +12,8 @@
 	<br>
 	Cantidad de existencias: <input type="number" name="existencias" id="existencias" tabindex="2" required>
 	<br>
+Ingresar fecha de compra: <input type="date" id="fecha" name="fecha" class=required/> 
+<br>
 	<input type="reset" name="limpiar">
     <input type="submit" name="guargar" value="Guardar">
 </form>
