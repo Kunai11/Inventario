@@ -7,29 +7,29 @@
     <body>
         <div id="principal">
         <a href="index.php">Regresar</a>
-        <table border="1">
-            <tr>
-                <td colspan="3" align="center"><h1>Historial de Ingresos</h1></td>
-            </tr>
-            <tr>
-                <th>Codigo</th>
-                <th>Codigo del Articulo</th>
-                <th>Fecha de Transaccion</th>
-            </tr>
-            <?php
-                include("cn/bdconexion.php");
-                $sql=mysqli_query($db,"SELECT * FROM ingresos") or die(mysqli_error());
-                while($row=mysqli_fetch_array($sql)) {
-                    echo '
-                        <tr>
-                            <td>'.$row['Codigo'].'</td>
-                            <td>'.$row['Cod_Articulo'].'</td>
-                            <td>'.$row['Fecha_en'].'</td>
-                        </tr>
-                    ';
-                }
-            ?>
-        </table>
-    </div>
-</body>
+            <table border="1">
+                <tr>
+                    <td colspan="3" align="center"><h1>Historial de Ingresos</h1></td>
+                </tr>
+                <tr>
+                    <th>Codigo</th>
+                    <th>Codigo del Articulo</th>
+                    <th>Fecha de Transaccion</th>
+                </tr>
+                <?php
+                    include("cn/bdconexion.php");
+                    $sql=mysqli_query($db,"SELECT * FROM ingresos") or die(mysqli_error());
+                    while($row=mysqli_fetch_array($sql)) {
+                        echo '
+                            <tr>
+                                <td>'.$row['Codigo'].'</td>
+                                <td>'.$row['Cod_Articulo'].'</td>
+                                <td>'.$row['Fecha_en'].'</td>
+                            </tr>
+                        ';
+                    }
+                ?>
+            </table>
+        </div>
+    </body>
 </html>
