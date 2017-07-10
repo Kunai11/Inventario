@@ -10,7 +10,7 @@
 
     echo '
         <p>Art&iacute;culo modificado exitosamente.</p>
-        <p><a href="resultados.php?palabra=$palabra">Regresar</a></p>
+        <p><a href="resultados.php?palabra='.$palabra.'">Regresar</a></p>
     ';
     // header("location:mod.php?Id=$id&palabra=$palabra");
 ?>
