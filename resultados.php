@@ -20,7 +20,7 @@
                     <th>Modificar</th>
                 </tr>
                 <?php
-                include("cn/conexion.php");
+                include("cn/bdconexion.php");
                     $sql=mysqli_query($db,"SELECT * FROM catalogo WHERE Codigo LIKE '%$palabra%'") or die(mysqli_error());
                     while($row=mysqli_fetch_array($sql)) {
                         echo '
