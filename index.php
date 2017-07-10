@@ -63,7 +63,7 @@
 			<tr>
 				<td></td>
 				<td>--</td>
-				<td><a href="">Historial de compras</a></td>
+				<td><a href="historial_ingresos.php">Historial de compras</a></td>
 			</tr>
 			<tr>
 				<td></td>
