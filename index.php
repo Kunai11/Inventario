@@ -5,33 +5,71 @@
 	</head>
 
 	<body>
-		<div id="principal" margin="0 auto">
-			<table position="center" border="1">
-				<tr>
-					<td>1</td>
-					<td><a href="ventas.php">Venta de Articulo</a></td>
-				</tr>
-				<tr>
-					<td>2</td>
-					<td><a href="agregar articulo.php">Agregar Descripcion de Nuevo Articulo</a></td>
-				</tr>
-				<tr>
-					<td>3</td>
-					<td><a href="modificar_articulo.php">Modificar Descripcion de Articulo Existente</a></td>
-				</tr>
-				<tr>
-					<td>4</td>
-					<td><a href="existencias.php">Agregar Existencias de Articulo</a></td>
-				</tr>
-				<tr>
-					<td>5</td>
-					<td><a href="consultar articulo.php">Consultar Lista de Articulos</a></td>
-				</tr>
-				<tr>
-					<td>6</td>
-					<td><a href="eliminar articulo.php">Elminar Articulo</a></td>
-				</tr>
-			</table>
-		</div>
+		<table position="center" border="1">
+			<tr>
+				<td colspan="3"><h1>Inicio</h1></td>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td colspan="2"><strong>Detalles del producto</strong></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>--</td>
+				<td><a href="agregar articulo.php">Agregar nuevo producto</a></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>--</td>
+				<td><a href="modificar_articulo.php">Modificar producto existente</a></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>--</td>
+				<td><a href="eliminar articulo.php">Eliminar producto</a></td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td colspan="2"><strong>Transacciones</strong></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>--</td>
+				<td><a href="">Comprar productos</a></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>--</td>
+				<td><a href="">Vender productos</a></td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td colspan="2"><strong>Catalogo</strong></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>--</td>
+				<td><a href="consultar articulo.php">Catalogo de productos</a></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>--</td>
+				<td><a href="">Buscar un producto</a></td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td colspan="2"><strong>Historial</strong></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>--</td>
+				<td><a href="">Historial de compras</a></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>--</td>
+				<td><a href="">Historial de ventas</a></td>
+			</tr>
+		</table>
 	</body>
 </html>
