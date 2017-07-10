@@ -35,7 +35,7 @@
             <tr>
                 <td>Costo:</td>
                 <td>
-                    <input type="number" name="costo" id="costo" required tabindex="3"><?php echo $row['Costo'];?></input>
+                    <input type="number" name="costo" id="costo" required tabindex="3" value="<?php echo $row['Costo'];?>" ></input>
                 </td>
             </tr>
             <tr>
