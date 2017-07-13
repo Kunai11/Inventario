@@ -207,6 +207,16 @@ p{
 	line-height: 1.5;
 }
 
+.select{
+	margin: 0;
+}
+
+.select select {
+	height: 30px;
+	margin: 10px;
+	font-size: 16px;
+}
+
 table{
 	background-color: transparent;
 	border-spacing: 0;
