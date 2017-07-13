@@ -35,7 +35,7 @@
                             <th>Codigo</th>
                             <th>Codigo del Articulo</th>
                             <th>Fecha de Transaccion</th>
-                            <th>Cantidad Ingresada</th>
+                            <th>Cantidad Comprada</th>
                         </tr>
                     </thead>
                     <tbody>
