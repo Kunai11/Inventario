@@ -33,7 +33,10 @@
                     <h3>Buscar</h3>
                     <p><input type="text" title="Parametros para la busqueda" name="parametro" id="parametro" required autofocus></p>
                     <hr>
-                    <p><input class="btn" type="submit" name="buscar" id="buscar" value="Buscar"></p>
+                    <p>
+						<a href="seccion_articulos.php"><input class="btn" type="button" name="Regresar" id="Regresar" value="Regresar"></a>
+						<input class="btn" type="submit" name="buscar" id="buscar" value="Buscar">
+					</p>
                 </form>
 			</div>
 

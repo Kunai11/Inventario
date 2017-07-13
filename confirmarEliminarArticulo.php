@@ -67,7 +67,7 @@
                     <input class="btn-eliminar" type="submit" name="eliminar" id="eliminar" value="Eliminar" color=red>
                 </form>
                 <hr>
-                <p><a href="resultadosEliminarArticulo.php?parametro=<?php echo $parametro ?>">Regresar</a></p>
+                <p><a href="resultadosEliminarArticulo.php?parametro=<?php echo $parametro ?>"><input class="btn" type="button" name="Regresar" id="Regresar" value="Regresar"></a></p>
 			</div>
 
 			<div class="contenido" id="der">

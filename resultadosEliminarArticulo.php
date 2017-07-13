@@ -67,7 +67,8 @@
                     </tbody>
                 </table>
                 <hr>
-                <p><a href="eliminar_articulo.php">Regresar</a></p>
+                <a href="eliminar_articulo.php"><input class="btn" type="button" name="Regresar" id="Regresar" value="Regresar"></a>
+                
 			</div>
 
 			<div class="contenido" id="der">

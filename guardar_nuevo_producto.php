@@ -45,7 +45,7 @@
                         echo '
                         <p color="red">Error el art&iacute;culo no se puede agregar.</p>
                         <p>Ya existe el Codigo ingresado.</p>
-                        <p><a href="agregar_articulo.php">Regresar</a></p>
+                        <a href="agregar_articulo.php"><input class="btn" type="button" name="Regresar" id="Regresar" value="Regresar"></a>
                         ';
                     }else{
                         $sql=mysqli_query($db,"INSERT INTO catalogo(Codigo,Descripcion,Costo,Precio,Categoria) values ('$codigo','$descripcion','$costo','$precio','$categoria')")or die(mysqli_error());
@@ -53,7 +53,9 @@
 
                         echo '
                         <p>Art&iacute;culo guardado exitosamente.</p>
-                        <p><a href="index.php">Volver al Inicio</a></p>
+                        <a href="index.php"><input class="btn" type="button" name="Inicio" id="Inicio" value="Inicio"></a>
+						<a href="agregar_articulo.php"><input class="btn" type="button" name="Regresar" id="Regresar" value="Regresar"></a>
+						<a href="comprar_articulo.php"><input class="btn" type="button" name="Comprar" id="Comprar" value="Comprar"></a>
                     ';
                     }
                 ?>

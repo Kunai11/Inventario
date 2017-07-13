@@ -41,7 +41,8 @@
 
                     echo '
                         <p>Art&iacute;culo modificado exitosamente.</p>
-                        <p><a href="resultados.php?palabra='.$palabra.'">Regresar</a></p>
+                        <a href="resultados.php?palabra='.$palabra.'"><input class="btn" type="button" name="Regresar" id="Regresar" value="Regresar"></a>
+						<a href="agregar_articulo.php"></a>
                     ';
                 ?>
 			</div>

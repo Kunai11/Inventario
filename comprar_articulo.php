@@ -57,6 +57,7 @@
 					</p>
 					<hr>
 					<p>
+						<a href="seccion_transacciones.php"><input class="btn" type="button" name="Regresar" id="Regresar" value="Regresar"></a>
 						<input class="btn" type="reset" name="limpiar" tabindex="4">
 						<input class="btn" type="submit" name="guargar" value="Guardar" tabindex="5">
 					</p>

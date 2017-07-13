@@ -43,7 +43,7 @@
 
                     echo '
                         <p>Nueva compra registrada exitosamente.</p>
-                        <p><a href="index.php">Regresar</a></p>
+                        <a href="comprar_articulo.php"><input class="btn" type="button" name="Regresar" id="Regresar" value="Regresar"></a>
                     ';
                 ?>
 			</div>

@@ -40,7 +40,7 @@
 				<h3>Listado de funcionalidades</h3>
 				<p>Las funcionalidades se dividen a su vez en varios módulos.</p>
 				<ol>
-					<li><h4>Artículos</h4></li>
+					<li><h4><a href="seccion_articulos.php">Artículos</a></h4></li>
 					<p>Contiene las opciones que pueden realizarse con los artículos en la base de datos.</p>
 					<ul>
 						<li><a href="agregar_articulo.php">Agregar nuevo articulo</a></li>
@@ -48,21 +48,21 @@
 						<li><a href="eliminar_articulo.php">Eliminar articulo</a></li>
 					</ul>
 					<br>
-					<li><h4>Transacciones</h4></li>
+					<li><h4><a href="seccion_transacciones.php">Transacciones</a></h4></li>
 					<p>Aquí se puede encontrar las transacciones comerciales básicas.</p>
 					<ul>
 						<li><a href="comprar_articulo.php">Comprar articulos</a></li>
 						<li><a href="venta_articulo.php">Vender articulos</a></li>
 					</ul>
 					<br>
-					<li><h4>Catálogo</h4></li>
+					<li><h4><a href="seccion_catalogo.php">Catálogo</a></h4></li>
 					<p>En esta sección se puede revisar el listado completo o individual de los artículos existentes.</p>
 					<ul>
 						<li><a href="catalogo_articulos.php">Catalogo de articulos</a></li>
 						<li><a href="buscar_articulo.php">Buscar un articulo</a></li>
 					</ul>
 					<br>
-					<li><h4>Historiales</h4></li>
+					<li><h4><a href="seccion_historial.php">Historiales</a></h4></li>
 					<p>En caso de que se necesite dar un vistazo a las transacciones que se han realizado, puede entrar al módulo correspondiente en esta sección.</p>
 					<ul>
 						<li><a href="historial_ingresos.php">Historial de Compras</a></li>
