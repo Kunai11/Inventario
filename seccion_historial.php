@@ -2,7 +2,7 @@
 <html lang="es" >
 	<head>
 		<meta charset="utf-8">
-		<title>Sección Artículos | Control Comercial</title>
+		<title>Sección Historiales | Control Comercial</title>
 		<link rel="shortcut icon" href="img/logo.png">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
@@ -11,7 +11,7 @@
 		<header>
 			
 			<div class="encabezado" id="top">
-				<img src="img/logo.png" class="img-responsive">
+				<img src="img/logo.png">
 				<h1><a href="index.php"><strong>Control Comercial</strong></a></h1>
 			</div>
 
@@ -27,20 +27,19 @@
 
 		<div id="contenedor">
 			<div class="contenido" id="izq">
-				<h2>Sección Artículos</h2>
+				<h2>Sección Historiales</h2>
 				<hr>
-				<h3>¿Que acción desea realizar?</h3>
+				<h3>¿Que historial desea visualizar?</h3>
 				<ul>
-					<li><a href="agregar_articulo.php">Agregar nuevo articulo</a></li>
-					<li><a href="modificar_articulo.php">Modificar articulo</a></li>
-					<li><a href="eliminar_articulo.php">Eliminar articulo</a></li>
+					<li><a href="historial_ingresos.php">Historial de Compras</a></li>
+					<li><a href="historial_egresos.php">Historial de Ventas</a></li>
 				</ul>
 			</div>
 
 			<div class="contenido" id="der">
 				<h2>Información</h2>
 				<hr>
-				<p>Por favor, seleccione la acción que desea realizar en el listado que se muestra, o puede ir a otra sección en la barra de navegación superior.</p>
+				<p>Por favor, seleccione el historial que desea visualizar en el listado que se muestra, o puede ir a otra sección en la barra de navegación superior.</p>
 			</div>
 		</div>
 		<div id="footer">

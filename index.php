@@ -22,7 +22,7 @@
 				<a href="seccion_articulos.php">Art&iacute;culos</a>
 				<a href="seccion_transacciones.php">Transacciones</a>
 				<a href="seccion_catalogo.php">Cat&aacute;logo</a>
-				<a href="seccion_histrorial.php">Historial</a>
+				<a href="seccion_historial.php">Historiales</a>
 		</div>
 
 		<div id="contenedor">
@@ -62,7 +62,7 @@
 						<li><a href="buscar_articulo.php">Buscar un articulo</a></li>
 					</ul>
 					<br>
-					<li><h4>Historial</h4></li>
+					<li><h4>Historiales</h4></li>
 					<p>En caso de que se necesite dar un vistazo a las transacciones que se han realizado, puede entrar al módulo correspondiente en esta sección.</p>
 					<ul>
 						<li><a href="historial_ingresos.php">Historial de Compras</a></li>
