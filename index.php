@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<link rel="shortcut icon" href="img/pic.png">
 		<title>Menu Inventario</title>
 	</head>
 
