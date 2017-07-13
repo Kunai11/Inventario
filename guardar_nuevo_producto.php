@@ -62,8 +62,9 @@
 			<div class="contenido" id="der">
 				<h2>Información</h2>
 				<hr>
-				<p>Por favor, rellene todos los campos con la información correspondiente y haga click en el botón guardar cuando haya finalizado.</p>
-				<p>Para borrar todos los campos, haga click en el botón Limpiar.</p>
+				<p>Aqui se muestra la respuesta de la base de datos.</p>
+                <p>Si se ha guardado correctamente se mostrará un mensaje.</p>
+                <p>En caso de que se muestre un error, vuelva a la página anterior y cambie el valor del código ingresado.</p>
 			</div>
 		</div>
 		<div id="footer">
