@@ -19,7 +19,7 @@
 
 		<div id="nav">
 				<a href="index.php">Inicio</a>
-				<a href="#">Art&iacute;culo</a>
+				<a href="seccion_articulos.php">Art&iacute;culos</a>
 				<a href="#">Transacciones</a>
 				<a href="#">Cat&aacute;logo</a>
 				<a href="#">Historial</a>
