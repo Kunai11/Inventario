@@ -26,7 +26,7 @@
 			<tr>
 				<td></td>
 				<td>--</td>
-				<td><a href="eliminar articulo.php">Eliminar articulo</a></td>
+				<td><a href="eliminar_articulo.php">Eliminar articulo</a></td>
 			</tr>
 			<tr>
 				<td>2</td>
