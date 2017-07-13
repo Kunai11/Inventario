@@ -34,6 +34,8 @@
 					<li><a href="catalogo_articulos.php">Ver catálogo completo de artículos</a></li>
 					<li><a href="buscar_articulo.php">Buscar un artículo en particular</a></li>
 				</ul>
+				<hr>
+				<a href="index.php"><input class="btn" type="button" name="Inicio" id="Inicio" value="Inicio"></a>
 			</div>
 
 			<div class="contenido" id="der">

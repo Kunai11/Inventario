@@ -34,6 +34,8 @@
 					<li><a href="comprar_articulo.php">Comprar articulos</a></li>
 					<li><a href="venta_articulo.php">Vender articulos</a></li>
 				</ul>
+				<hr>
+				<a href="index.php"><input class="btn" type="button" name="Inicio" id="Inicio" value="Inicio"></a>
 			</div>
 
 			<div class="contenido" id="der">

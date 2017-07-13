@@ -35,6 +35,8 @@
 					<li><a href="modificar_articulo.php">Modificar articulo</a></li>
 					<li><a href="eliminar_articulo.php">Eliminar articulo</a></li>
 				</ul>
+				<hr>
+				<a href="index.php"><input class="btn" type="button" name="Inicio" id="Inicio" value="Inicio"></a>
 			</div>
 
 			<div class="contenido" id="der">

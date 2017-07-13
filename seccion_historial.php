@@ -34,6 +34,8 @@
 					<li><a href="historial_ingresos.php">Historial de Compras</a></li>
 					<li><a href="historial_egresos.php">Historial de Ventas</a></li>
 				</ul>
+				<hr>
+				<a href="index.php"><input class="btn" type="button" name="Inicio" id="Inicio" value="Inicio"></a>
 			</div>
 
 			<div class="contenido" id="der">
