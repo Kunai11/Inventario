@@ -9,7 +9,7 @@
 		<a href="index.php">Regresar</a>
 		<table border="1">
 			<th colspan="2" align="center"><h1>Eliminar articulo existente</h1></th>
-			<form method="GET" action="resultadosEliminarArticulos.php">
+			<form method="GET" action="resultadosEliminarArticulo.php">
 			<tr>
 				<td>Buscar</td>
 				<td>
