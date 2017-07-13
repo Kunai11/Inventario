@@ -56,7 +56,7 @@
                     </tbody>
                 </table>
                 <hr>
-                <p><a href="index.php">Regresar</a></p>
+                <a href="seccion_historial.php"><input class="btn" type="button" name="Regresar" id="Regresar" value="Regresar"></a>
 			</div>
 
 			<div class="contenido" id="der">
