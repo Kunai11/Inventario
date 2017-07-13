@@ -142,10 +142,15 @@ div#izq input.btn{
 	border-radius: .2em;
 }
 
-h2,h3,h4,h5,h6
+h2,h3,h4,h5
 {
 	font-weight: 400;
 	margin: 10px;
+	color: rgb(226, 98, 20);
+}
+
+p, ul, ol, li, th, td{
+	color: #333;
 }
 
 h1 { 
@@ -169,6 +174,8 @@ h5 {
 }
 
 h6 { 
+	font-weight: 400;
+	margin: 10px;
 	font-size: .875em;
 }
 
@@ -204,7 +211,7 @@ div#izq input.btn:hover{
 }
 
 div#izq a{
-	text-decoration: none;
+	/*text-decoration: none;*/
 	color: rgb(226, 98, 20);
 }
 
