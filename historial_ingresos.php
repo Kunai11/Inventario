@@ -9,12 +9,13 @@
         <a href="index.php">Regresar</a>
             <table border="1">
                 <tr>
-                    <td colspan="3" align="center"><h1>Historial de Ingresos</h1></td>
+                    <td colspan="4" align="center"><h1>Historial de Ingresos</h1></td>
                 </tr>
                 <tr>
                     <th>Codigo</th>
                     <th>Codigo del Articulo</th>
                     <th>Fecha de Transaccion</th>
+                    <th>Cantidad Ingresada</th>
                 </tr>
                 <?php
                     include("cn/bdconexion.php");
@@ -25,6 +26,7 @@
                                 <td>'.$row['Codigo'].'</td>
                                 <td>'.$row['Cod_Articulo'].'</td>
                                 <td>'.$row['Fecha_en'].'</td>
+                                <td>'.$row['Cantidad'].'</td>
                             </tr>
                         ';
                     }
