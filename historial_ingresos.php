@@ -18,11 +18,11 @@
 		</header>
 
 		<div id="nav">
-				<a href="index.php">Inicio</a>
-				<a href="seccion_articulos.php">Art&iacute;culos</a>
-				<a href="seccion_transacciones.php">Transacciones</a>
-				<a href="seccion_catalogo.php">Cat&aacute;logo</a>
-				<a href="seccion_historial.php">Historiales</a>
+				<a href="seccion_articulos.php">ARTICULOS</a>
+				<a href="seccion_transacciones.php">TRANSACCIONES</a>
+				<a class="inicio" href="index.php"> <strong>INICIO</strong> </a>
+				<a href="seccion_catalogo.php">CATALOGO</a>
+				<a href="seccion_historial.php">HISTORIALES</a>
 		</div>
 
 		<div id="contenedor">
