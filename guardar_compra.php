@@ -9,7 +9,7 @@
     $sql=mysqli_query($db,"INSERT INTO ingresos(Cod_Articulo,Fecha_en) values ('$codigo','$fecha')")or die(mysqli_error());
 
     echo '
-        <p>Art&iacute;culo agregado exitosamente.</p>
+        <p>Nueva compra registrada exitosamente.</p>
         <p><a href="index.php">Regresar</a></p>
     ';
 ?>
