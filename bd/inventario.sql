@@ -58,7 +58,7 @@ CREATE TABLE IF NOT EXISTS `egresos` (
 CREATE TABLE IF NOT EXISTS `existencias` (
   `Codigo_Ex` int(11) NOT NULL AUTO_INCREMENT,
   `Codigo_Art` varchar(5) COLLATE utf8_spanish_ci NOT NULL,
-  `Existecias` int(11) NOT NULL,
+  `Existencias` int(11) NOT NULL,
   PRIMARY KEY (`Codigo_Ex`),
   KEY `Codigo_Art` (`Codigo_Art`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci AUTO_INCREMENT=1 ;
