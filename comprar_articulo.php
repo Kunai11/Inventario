@@ -5,6 +5,7 @@
 	<title>Comprar articulo</title>
 </head>
 <body>
+	<a href="index.php">Regresar</a>
 		<form method="POST" action="guardar_compra.php">
 <table position="center" border="1">
 			<tr>
