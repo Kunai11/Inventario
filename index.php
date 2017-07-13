@@ -20,9 +20,9 @@
 		<div id="nav">
 				<a href="index.php">Inicio</a>
 				<a href="seccion_articulos.php">Art&iacute;culos</a>
-				<a href="#">Transacciones</a>
-				<a href="#">Cat&aacute;logo</a>
-				<a href="#">Historial</a>
+				<a href="seccion_transacciones.php">Transacciones</a>
+				<a href="seccion_catalogo.php">Cat&aacute;logo</a>
+				<a href="seccion_histrorial.php">Historial</a>
 		</div>
 
 		<div id="contenedor">
