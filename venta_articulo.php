@@ -5,7 +5,7 @@
 	<title>Venta de articulo</title>
 </head>
 <body>
-	
+	<a href="index.php">Regresar</a>
 	<table border="1">
 		 <th colspan="2" align="center"><h1>Venta Articulo</h1></th>
 		
