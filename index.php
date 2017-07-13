@@ -78,7 +78,9 @@
 				<h2>Colaboradores</h2>
 				<hr>
 				<h4>Carlos Alfredo Meza</h4>
-				<h4>Carlos David Vásquez.</h4>
+				<p>carlomeza11.cm@gmail.com</p>
+				<h4>Carlos David Vásquez</h4>
+				<p>carlosdavidvasquez7@gmail.com</p>
 			</div>
 		</div>
 		<div id="footer">
