@@ -33,7 +33,7 @@
 				</tr>
 				<tr>
 					<td>Cantidad de unidades</td>
-					<td><input type="number" name="cantidad" id="cantidad" required tabindex="2"></td>
+					<td><input type="number" min="1" name="cantidad" id="cantidad" required tabindex="2"></td>
 				</tr>
 				<tr>
 					<td>Fecha de transaccion</td>
