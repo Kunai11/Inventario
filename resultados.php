@@ -29,45 +29,43 @@
 			<div class="contenido" id="izq">
 				<h2>Modificar artículo</h2>
 				<hr>
-                <form method="GET" action="resultados.php">
-                    <h3>Resultados de la búsqueda: <?php echo $palabra=$_GET['palabra']; ?> </h3>
-                    <table class="table table-striped">
-                        <thead>
-                            <tr>
-                                <th>Codigo</th>
-                                <th>Descripcion</th>
-                                <th>Costo</th>
-                                <th>Precio</th>
-                                <th>Categoria</th>
-                                <th>Modificar</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <?php
-                                include("cn/bdconexion.php");
-                                $sql=mysqli_query($db,"SELECT * FROM catalogo WHERE Codigo LIKE '%$palabra%'") or die(mysqli_error());
-                                while($row=mysqli_fetch_array($sql)) {
-                                    echo '
-                                        <tr>
-                                            <td>'.$row['Codigo'].'</td>
-                                            <td>'.$row['Descripcion'].'</td>
-                                            <td>'.$row['Costo'].'</td>
-                                            <td>'.$row['Precio'].'</td>
-                                            <td>'.$row['Categoria'].'</td>
-                                            <td>
-                                                <form method="GET" action="cambiar_campos_articulos.php">
-                                                    <input type="hidden" name="Codigo" Id="Codigo" value="'.$row['Codigo'].'">
-                                                    <input type="hidden" name="palabra" Id="palabra" value="'.$palabra.'">
-                                                    <input class="btn" type="submit" name="modificar" id="modificar" value="Modificar">
-                                                </form>
-                                            </td>
-                                        </tr>
-                                    ';
-                                }
-                            ?>
-                        </tbody>
-                    </table>
-                </form>
+                <h3>Resultados de la búsqueda: <?php echo $palabra=$_GET['palabra']; ?> </h3>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Codigo</th>
+                            <th>Descripcion</th>
+                            <th>Costo</th>
+                            <th>Precio</th>
+                            <th>Categoria</th>
+                            <th>Modificar</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php
+                            include("cn/bdconexion.php");
+                            $sql=mysqli_query($db,"SELECT * FROM catalogo WHERE Codigo LIKE '%$palabra%'") or die(mysqli_error());
+                            while($row=mysqli_fetch_array($sql)) {
+                                echo '
+                                    <tr>
+                                        <td>'.$row['Codigo'].'</td>
+                                        <td>'.$row['Descripcion'].'</td>
+                                        <td>'.$row['Costo'].'</td>
+                                        <td>'.$row['Precio'].'</td>
+                                        <td>'.$row['Categoria'].'</td>
+                                        <td>
+                                        <form method="GET" action="cambiar_campos_articulos.php">
+                                            <input type="hidden" name="Codigo" Id="Codigo" value="'.$row['Codigo'].'">
+                                            <input type="hidden" name="palabra" Id="palabra" value="'.$palabra.'">
+                                            <input class="btn" type="submit" name="modificar" id="modificar" value="Modificar">
+                                        </form>
+                                        </td>
+                                    </tr>
+                                ';
+                            }
+                        ?>
+                    </tbody>
+                </table>
                 <hr>
                 <p><a href="modificar_articulo.php">Regresar</a></p>
 			</div>
@@ -84,18 +82,4 @@
 				<h6>&copy; Copyright 2017 | Carlos Meza | Carlos Vásquez  </h6>
 			</div>
 	</body>
-</html>
-
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Resultados de la b&uacute;squeda</title>
-    </head>
-    <body>
-        <div id="principal">
-        <a href="modificar_articulo.php">Regresar</a>
-            
-        </div>
-    </body>
 </html>
