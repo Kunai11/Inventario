@@ -42,7 +42,7 @@
 						Codigo:<br>
                         <input type="hidden" name="codigo" id="codigo" value="<?php echo $row['Codigo'];?>">
                         <input type="hidden" name="palabra" id="palabra" value="<?php echo $palabra;?>">
-                        <input type="text" name="codigo" id="codigo" required autofocus tabindex="1" value="<?php echo $row['Codigo'];?>">
+                        <input type="text" name="codigo" id="codigo" required autofocus tabindex="1" value="<?php echo $row['Codigo'];?>" disabled>
 					</p>
 					<p>
 						Descripci&oacute;n:<br>
