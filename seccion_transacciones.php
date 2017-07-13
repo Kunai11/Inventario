@@ -22,7 +22,7 @@
 				<a href="seccion_articulos.php">Art&iacute;culos</a>
 				<a href="seccion_transacciones.php">Transacciones</a>
 				<a href="seccion_catalogo.php">Cat&aacute;logo</a>
-				<a href="seccion_historial.php">Historial</a>
+				<a href="seccion_historial.php">Historiales</a>
 		</div>
 
 		<div id="contenedor">
