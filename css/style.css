@@ -54,10 +54,16 @@ header div a{
 	color: #fff;
 }
 
-img{
+header div img{
 	height: 20px;
 	width: 20px;
 	display: inline-block;
+}
+
+div#izq img{
+	max-width: 100%;
+	border: 1px solid #333;
+	border-radius: .4em;
 }
 
 div#nav{
