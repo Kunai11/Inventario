@@ -54,6 +54,7 @@
                                         <td>'.$row['Categoria'].'</td>
                                     </tr>
                                 ';
+                                $codigo=$row['Codigo'];
                             }  
                         ?>
                     </tbody>
@@ -61,8 +62,8 @@
                 <hr>
                 <h4 class="eliminar">¿Est&aacute; seguro de eliminar el art&iacute;culo mostrado?</h4>
                 <form method="POST" action="guardarEliminarArticulo.php">
-                    <input type="hidden" name="Codigo" Id="Codigo" value="'<?php echo $row['Codigo'] ?>'">
-                    <input type="hidden" name="parametro" Id="parametro" value="'<?php echo $parametro ?>'">
+                    <input type="hidden" name="Codigo" Id="Codigo" value="<?php echo $codigo; ?>">
+                    <input type="hidden" name="parametro" Id="parametro" value="<?php echo $parametro; ?>">
                     <input class="btn-eliminar" type="submit" name="eliminar" id="eliminar" value="Eliminar" color=red>
                 </form>
                 <hr>
