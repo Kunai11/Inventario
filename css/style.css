@@ -161,6 +161,18 @@ div#izq input.btn {
 	border-radius: .2em;
 }
 
+div#der input.btn {
+	color: #fff ;
+	background-color: rgb(226, 98, 20);
+	border-color: #222;
+	/*display: inline-block;*/
+	padding: 2px 20px;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid transparent;
+	border-radius: .2em;
+}
+
 div#izq input.btn-eliminar {
 	color: #fff ;
 	background-color: rgb(190, 20, 20);
@@ -253,6 +265,12 @@ th, td{
 div#izq input.btn:hover{
 	color: #fff !important;
 	background-color: rgb(186, 80, 16);
+}
+
+div#der input.btn:hover{
+	color: #fff !important;
+	background-color: rgb(186, 80, 16);
+	cursor: pointer;
 }
 
 div#izq a{
