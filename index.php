@@ -75,7 +75,7 @@
 			</div>
 
 			<div class="contenido" id="der">
-				<h2>Colaboradores</h2>
+				<h2>Desarrolladores</h2>
 				<hr>
 				<h4>Carlos Alfredo Meza</h4>
 				<p>carlomeza11.cm@gmail.com</p>
