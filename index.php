@@ -69,6 +69,9 @@
 						<li><a href="historial_egresos.php">Historial de Ventas</a></li>
 					</ul>
 				</ol>
+				<hr>
+				<h3>Vista previa</h3>
+				<img src="img/preview.png">
 			</div>
 
 			<div class="contenido" id="der">
