@@ -71,7 +71,7 @@
 				</ol>
 				<hr>
 				<h3>Vista previa</h3>
-				<img src="img/preview.png">
+				<img src="img/vistaprevia.png">
 			</div>
 
 			<div class="contenido" id="der">
@@ -81,6 +81,10 @@
 				<p>carlomeza11.cm@gmail.com</p>
 				<h4>Carlos David Vásquez</h4>
 				<p>carlosdavidvasquez7@gmail.com</p>
+				<hr>
+				<h3>Nota de los desarrolladores:</h3>
+				<p>Para que puedas aprovechar todas las funcionalidades de este proyecto, descarga la base de datos mySQL precargada con multiples registros.</p>
+				<p><a href="descarga/inventario_1.2.sql.zip" download="inventario_1.2.zip"><input class="btn" type="button" name="descargarbd" value="Descargar Base de Datos"></a></p>
 			</div>
 		</div>
 		<div id="footer">
