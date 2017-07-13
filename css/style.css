@@ -93,7 +93,7 @@ hr{
 	margin-top: 1em;
 	margin-bottom: 2em;
 	border: 0;
-	border-top: 1px solid #ddd;
+	border-top: 1px solid #ccc;
 }
 
 div#contenedor{
@@ -101,7 +101,7 @@ div#contenedor{
 	/*width: auto;*/
 	/*height: auto;*/
 	margin: 0px;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	display: inline-block;
 	position: relative;
 	background-color: transparent;
@@ -120,7 +120,7 @@ div#izq{
 	align-items: left;
 	max-width: 856px;
 	/*height: 360px;*/
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	background-color: transparent;
 }
 
@@ -180,14 +180,14 @@ table{
 	background-color: transparent;
 	border-spacing: 0;
 	border-collapse: collapse;
-	border-top: 1px solid #ddd;
+	border-top: 1px solid #ccc;
 }
 
 th, td{
 	padding: .5em 1em;
 	vertical-align: top;
 	text-align: left;
-	border-bottom: 1px solid #ddd;
+	border-bottom: 1px solid #ccc;
 }
 
 .table
@@ -218,7 +218,8 @@ div#der{
 	align-items: left;
 	max-width: 325px;
 	/*height: 360px;*/
-	border: 1px solid black;
+	/*border: 1px solid black;*/
+	border-left: 1px solid #ccc;
 	background-color: transparent;
 }
 
