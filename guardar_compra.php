@@ -6,7 +6,7 @@
 
     //echo $identidad.'-'.$nombre.'-'.$direccion.'-'.$telefono;
     $sql=mysqli_query($db,"UPDATE existencias SET Existencias=Existencias+'$existencias' WHERE Codigo_Art=('$codigo')")or die(mysqli_error());
-  $sql=mysqli_query($db,"INSERT INTO ingresos(Cod_Articulo,Fecha_en) values ('$codigo','$fecha')")or die(mysqli_error());
+    $sql=mysqli_query($db,"INSERT INTO ingresos(Cod_Articulo,Fecha_en) values ('$codigo','$fecha')")or die(mysqli_error());
 
     echo '
         <p>Art&iacute;culo agregado exitosamente.</p>
