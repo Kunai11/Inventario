@@ -85,6 +85,11 @@
 				<h3>Nota de los desarrolladores:</h3>
 				<p>Para que puedas aprovechar todas las funcionalidades de este proyecto, descarga la base de datos mySQL precargada con multiples registros.</p>
 				<p><a href="descarga/inventario_1.2.sql.zip" download="inventario_1.2.zip"><input class="btn" type="button" name="descargarbd" value="Descargar Base de Datos"></a></p>
+				<hr>
+				<h3>Contribuir</h3>
+				<p>Si desea revisar el proceso de desarrollo desde el inicio hasta como lo observa ahora o si desea contribuir con ideas para mejorar los módulos o crear nuevos.</p>
+				<p>Puede acceder al repositorio de Github para este proyecto.</p>
+				<p><a href="https://github.com/Kunai11/Inventario"><input class="btn" type="button" name="github" value="Ir al repositorio"></a></p>
 			</div>
 		</div>
 		<div id="footer">
