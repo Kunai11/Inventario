@@ -13,10 +13,10 @@
             $row=mysqli_fetch_array($sql);
         ?>
         <a href="resultados.php?palabra=<?php echo $palabra; ?>">Regresar</a>
-        <form method="GET" action="guardar_venta_articulos.php">
+        <form method="GET" action="guardar_venta_articulo.php">
              <table border="1">
                 <tr>
-                    <td colspan="5" align="center"><h1>Factura</h1></td>
+                    <td colspan="6" align="center"><h1>Factura</h1></td>
                 </tr>
                 <tr>
                     <th>Codigo</th>
@@ -24,6 +24,7 @@
                     <th>Precio</th>
                     <th>Categoria</th>
                     <th>Ingresar cantidad de unidades</th>
+                    <th>Fecha</th>
 
                 </tr>
                 <?php
@@ -36,9 +37,19 @@
                                 <td>'.$row['Descripcion'].'</td>
                                 <td>'.$row['Precio'].'</td>
                                 <td>'.$row['Categoria'].'</td>
-                                <td><input type="number" name="cantidad" id="cantidad"></td>
-                            </tr>
-                            <td colspan="5" align="center"><input type="submit" name="facturar" id="facturar"  value="Facturar"></td>
+
+                                 <form method="GET" action="guardar_venta_articulo.php">
+                                 <td><input type="number" name="cantidad" id="cantidad"></td>
+                                 <td><input type="date" name="fecha" id="fecha" ></td>
+                                            <input type="hidden" name="codigo" Id="codigo" value="'.$row['Codigo'].'">
+                                             </tr>
+                                            <td colspan="6" align="center"><input type="submit" name="facturar" id="facturar"  value="Facturar"></td>
+                                            </form>
+
+
+                           
+                          
+
                         ';
                     }
                 ?>
