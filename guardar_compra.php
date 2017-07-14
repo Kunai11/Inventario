@@ -4,7 +4,7 @@
 <html lang="es" >
 	<head>
 		<meta charset="utf-8">
-		<title>Guardar Compra | Control Comercial</title>
+		<title>Registrando Compra | Control Comercial</title>
 		<link rel="shortcut icon" href="img/logo.png">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
