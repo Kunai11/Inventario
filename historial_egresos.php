@@ -46,7 +46,7 @@
                                 echo '
                                     <tr>
                                         <td>'.$row['Codigo'].'</td>
-                                        <td>'.$row['Cod_Articulo'].'</td>
+                                        <td>'.$row['Codigo_Art'].'</td>
                                         <td>'.$row['Fecha_sal'].'</td>
                                         <td>'.$row['Cantidad'].'</td>
                                     </tr>
